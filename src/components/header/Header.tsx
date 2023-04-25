@@ -3,7 +3,7 @@ import { Menu,Transition } from '@headlessui/react'
 import { HiUserCircle,HiOutlineBell,HiOutlineCog6Tooth } from "react-icons/hi2";
 function Header() {
   return (
-    <div className="w-full absolute bg-white h-20 p-2">
+    <div className="w-full absolute bg-white h-20 p-2 z-10">
         <div className="grid grid-cols-12 gap-4 p-4">
             <div className="col-start-3 col-span-2">
                 <div className="flex relative justify-center align-middle">
